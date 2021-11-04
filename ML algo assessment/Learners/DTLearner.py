@@ -78,20 +78,13 @@ def build_tree(data_x, data_y, leaf_size, random_feature=False):
 
 
 
-# DTLearner clsss
+# DTLearner class
 
 class DTLearner(object):
     def __init__(self, leaf_size, verbose=False):
         self.leaf_size = leaf_size
         self.verbose = verbose
         self.tree = None
-    
-    def author(self):  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        :return: The GT username of the student  		  	   		   	 		  		  		    	 		 		   		 		  
-        :rtype: str  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        return "dnkwantabisa3" 
 
     def add_evidence(self, data_x, data_y):
         """
