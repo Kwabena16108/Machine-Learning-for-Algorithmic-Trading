@@ -97,10 +97,7 @@ def optimize_portfolio(
     
     return opt_alloc, cr, adr, sddr, sr
 
-  	  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
-		  	   		   	 		  		  		    	 		 		   		 		  
+  	  	   		   	 		  		  		    	 		 		   		 		  	  	   		   	 		  		  		    	 		 		   		 		  
  def test_code():
  
      allocations, cr, adr, sddr, sr = optimize_portfolio(gen_plot=True,)
