@@ -10,12 +10,6 @@ class BagLearner(object):
         self.verbose = verbose
     
         self.learners = []
-    def author(self):  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        :return: The GT username of the student  		  	   		   	 		  		  		    	 		 		   		 		  
-        :rtype: str  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        return "dnkwantabisa3" 
 
     def add_evidence(self, trainX, trainY):
         n = len(trainX)  # number of samples
