@@ -1,27 +1,4 @@
-""""""  		  	   		   	 		  		  		    	 		 		   		 		  
-"""  		  	   		   	 		  		  		    	 		 		   		 		  
-Test best4 data generator.  (c) 2016 Tucker Balch  		  	   		   	 		  		  		    	 		 		   		 		  
-Copyright 2018, Georgia Institute of Technology (Georgia Tech)  		  	   		   	 		  		  		    	 		 		   		 		  
-Atlanta, Georgia 30332  		  	   		   	 		  		  		    	 		 		   		 		  
-All Rights Reserved  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
-Template code for CS 4646/7646  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
-Georgia Tech asserts copyright ownership of this template and all derivative  		  	   		   	 		  		  		    	 		 		   		 		  
-works, including solutions to the projects assigned in this course. Students  		  	   		   	 		  		  		    	 		 		   		 		  
-and other users of this template code are advised not to share it with others  		  	   		   	 		  		  		    	 		 		   		 		  
-or to make it available on publicly viewable websites including repositories  		  	   		   	 		  		  		    	 		 		   		 		  
-such as github and gitlab.  This copyright statement should not be removed  		  	   		   	 		  		  		    	 		 		   		 		  
-or edited.  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
-We do grant permission to share solutions privately with non-students such  		  	   		   	 		  		  		    	 		 		   		 		  
-as potential employers. However, sharing with other current or future  		  	   		   	 		  		  		    	 		 		   		 		  
-students of CS 7646 is prohibited and subject to being investigated as a  		  	   		   	 		  		  		    	 		 		   		 		  
-GT honor code violation.  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
------do not edit anything above this line---  		  	   		   	 		  		  		    	 		 		   		 		  
-"""  		  	   		   	 		  		  		    	 		 		   		 		  
-  		  	   		   	 		  		  		    	 		 		   		 		  
+ 		  		  		    	 		 		   		 		  
 import math  		  	   		   	 		  		  		    	 		 		   		 		  
   		  	   		   	 		  		  		    	 		 		   		 		  
 import numpy as np  		  	   		   	 		  		  		    	 		 		   		 		  
@@ -34,7 +11,7 @@ from gen_data import best_4_dt, best_4_lin_reg
 # compare two learners' rmse out of sample  		  	   		   	 		  		  		    	 		 		   		 		  
 def compare_os_rmse(learner1, learner2, x, y):  		  	   		   	 		  		  		    	 		 		   		 		  
     """  		  	   		   	 		  		  		    	 		 		   		 		  
-    Compares the out-of-sample root mean squared error of your LinRegLearner and DTLearner.  		  	   		   	 		  		  		    	 		 		   		 		  
+    Compares the out-of-sample root mean squared error of LinRegLearner and DTLearner.  		  	   		   	 		  		  		    	 		 		   		 		  
   		  	   		   	 		  		  		    	 		 		   		 		  
     :param learner1: An instance of LinRegLearner  		  	   		   	 		  		  		    	 		 		   		 		  
     :type learner1: class:'LinRegLearner.LinRegLearner'  		  	   		   	 		  		  		    	 		 		   		 		  
@@ -76,7 +53,7 @@ def compare_os_rmse(learner1, learner2, x, y):
   		  	   		   	 		  		  		    	 		 		   		 		  
 def test_code():  		  	   		   	 		  		  		    	 		 		   		 		  
     """  		  	   		   	 		  		  		    	 		 		   		 		  
-    Performs a test of your code and prints the results  		  	   		   	 		  		  		    	 		 		   		 		  
+    Performs a test of code and prints the results  		  	   		   	 		  		  		    	 		 		   		 		  
     """  		  	   		   	 		  		  		    	 		 		   		 		  
     # create two learners and get data  		  	   		   	 		  		  		    	 		 		   		 		  
     lrlearner = lrl.LinRegLearner(verbose=False)  		  	   		   	 		  		  		    	 		 		   		 		  
@@ -95,7 +72,7 @@ def test_code():
         print("LR < 0.9 DT:  pass")  		  	   		   	 		  		  		    	 		 		   		 		  
     else:  		  	   		   	 		  		  		    	 		 		   		 		  
         print("LR >= 0.9 DT:  fail")  		  	   		   	 		  		  		    	 		 		   		 		  
-    print  		  	   		   	 		  		  		    	 		 		   		 		  
+    print ()		  	   		   	 		  		  		    	 		 		   		 		  
   		  	   		   	 		  		  		    	 		 		   		 		  
     # get data that is best for a random tree  		  	   		   	 		  		  		    	 		 		   		 		  
     lrlearner = lrl.LinRegLearner(verbose=False)  		  	   		   	 		  		  		    	 		 		   		 		  
