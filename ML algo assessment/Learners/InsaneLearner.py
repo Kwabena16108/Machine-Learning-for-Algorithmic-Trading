@@ -5,8 +5,7 @@ class InsaneLearner(object):
     def __init__(self, verbose=False):
         self.verbose = verbose
         self.bag_learners = []
-    def author(self):  		  	   		   	 		  		  		    	 		 		   		 		  
-        return "dnkwantabisa3" 
+        
     def add_evidence(self, trainX, trainY):
         for i in range(20):
             bag_learner = bl.BagLearner(learner=lrl.LinRegLearner, kwargs={}, bags=20)
