@@ -88,13 +88,6 @@ class RTLearner:
         self.leaf_size = leaf_size
         self.verbose = verbose
         self.tree = None
-    
-    def author(self):  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        :return: The GT username of the student  		  	   		   	 		  		  		    	 		 		   		 		  
-        :rtype: str  		  	   		   	 		  		  		    	 		 		   		 		  
-        """  		  	   		   	 		  		  		    	 		 		   		 		  
-        return "dnkwantabisa3" 
 
     def add_evidence(self, data_x, data_y):
         """
