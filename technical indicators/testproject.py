@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 		  		  		    	 		 		   		 		  
-"""
-Student Name: Dickson Nkwantabisa
-GT User ID: dnkwantabisa3
-GT ID: 903658462		  	   		   	 		  		  		    	 		 		   		 		   
-""" 	
   
 import datetime as dt
 from util import get_data
@@ -15,12 +10,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import indicators as ind
-
-#%%
-def author():
-    return 'dnkwantabisa3'
-
-#%%
 
 
 def testproject():
