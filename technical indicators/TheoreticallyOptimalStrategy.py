@@ -1,23 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-		  		  		    	 		 		   		 		  
-"""
-Student Name: Dickson Nkwantabisa
-GT User ID: dnkwantabisa3
-GT ID: 903658462	
-	  	   		   	 		  		  		    	 		 		   		 		   
-""" 	
-
 import pandas as pd  
 import datetime as dt
 from util import get_data
 from marketsimcode import compute_portvals
-
-
-def author():
-    return 'dnkwantabisa3'
-
 
 def testPolicy(symbol="AAPL",
                sd=dt.datetime(2008, 1, 1),
@@ -33,7 +20,7 @@ def testPolicy(symbol="AAPL",
     holdings = 0
 
     def trade_decision(row):
-        nonlocal holdings  # point to the "holdings" at line 28
+        nonlocal holdings  # point to the "holdings" at line 20
         now = row["now"]
         nxt = row["nxt"]
 
