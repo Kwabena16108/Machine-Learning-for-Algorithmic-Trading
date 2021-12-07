@@ -6,13 +6,7 @@ Created on Sun Nov  7 17:33:08 2021
 
 @author: dicksonnkwantabisa
 """
-		  		  		    	 		 		   		 		  
-"""
-Student Name: Dickson Nkwantabisa
-GT User ID: dnkwantabisa3
-GT ID: 903658462	
-	  	   		   	 		  		  		    	 		 		   		 		   
-"""
+
 import numpy as np
 import pandas as pd
 import datetime as dt
