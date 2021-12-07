@@ -6,13 +6,7 @@ Created on Thu Nov 25 21:53:32 2021
 @author: dicksonnkwantabisa
 """
 
-		  		  		    	 		 		   		 		  
-"""
-Student Name: Dickson Nkwantabisa
-GT User ID: dnkwantabisa3
-GT ID: 903658462	
-	  	   		   	 		  		  		    	 		 		   		 		   
-"""
+
 import numpy as np
 import pandas as pd
 import datetime as dt
@@ -26,7 +20,7 @@ import StrategyLearner as sl
 
 def gtid():
     """
-    :return: The GT ID of the student
+    :return: a random seed
     """
     return 903658462
 
