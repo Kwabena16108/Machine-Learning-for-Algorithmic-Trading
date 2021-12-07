@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 		  		  		    	 		 		   		 		  
-"""
-Student Name: Dickson Nkwantabisa
-GT User ID: dnkwantabisa3
-GT ID: 903658462	
-	  	   		   	 		  		  		    	 		 		   		 		   
-""" 	   		   	 		  		  		    	 		 		   		 		  
-
-
 import numpy as np
 import pandas as pd
 
