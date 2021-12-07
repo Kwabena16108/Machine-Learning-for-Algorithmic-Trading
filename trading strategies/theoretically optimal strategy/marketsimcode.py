@@ -6,11 +6,6 @@ import pandas as pd
 
 from util import *
 
-
-def author():
-    return 'dnkwantabisa3'
-
-
 def compute_portvals(
         orders_df,
         start_val=100_000,
