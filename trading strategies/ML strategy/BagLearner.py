@@ -1,5 +1,10 @@
 import numpy as np
 
+"""
+The following code is the implementation of a RandomForest Learner.
+It consists of helper functions and two classes: BagLearner and Random Tree Learner
+"""
+
 
 def mode(array):
     vals, counts = np.unique(array, return_counts=True)
